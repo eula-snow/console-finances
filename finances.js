@@ -1,4 +1,7 @@
-console.log("Total Months: " + finances.length);
+console.log(
+  "Financial Analysis\n----------------------------\nTotal Months: " +
+    finances.length
+);
 
 var total = 0;
 for (i = 0; i < finances.length; i++) {
